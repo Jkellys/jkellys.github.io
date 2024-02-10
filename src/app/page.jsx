@@ -12,10 +12,11 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoNYC from '@/images/logos/NYC-Logo.svg'
+import logoVIU from '@/images/logos/VIU-logo.svg'
+import logoMHC from '@/images/logos/MHC-logo.svg'
+import logoCFSA from '@/images/logos/CFSA-logo.svg'
+import logoComox from '@/images/logos/comox-logo.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -179,7 +180,7 @@ function Resume() {
     {
       company: 'Mental Health Connections',
       title: 'Full Stack Developer',
-      logo: logoPlanetaria,
+      logo: logoMHC,
       start: '2023',
       end: {
         label: 'Present',
@@ -189,7 +190,7 @@ function Resume() {
     {
       company: 'Nanaimo Yacht Club',
       title: 'Race team Coach',
-      logo: logoStarbucks,
+      logo: logoNYC,
       start: '2023',
       end: {
         label: 'Present',
@@ -199,28 +200,28 @@ function Resume() {
     {
       company: 'Vancouver Island University',
       title: 'Python developer',
-      logo: logoFacebook,
+      logo: logoVIU,
       start: '2022',
       end: '2023',
     },
     {
       company: 'Canadian Forces Sailing Association',
       title: 'Head Sailing Instructor',
-      logo: logoAirbnb,
+      logo: logoCFSA,
       start: '2021',
       end: '2021',
     },
     {
       company: 'Esquimalt Disabled Sailing Association',
       title: 'Sailing Instructor',
-      logo: logoStarbucks,
+      logo: logoCFSA,
       start: '2019',
       end: '2020',
     },
     {
       company: 'Comox Bay Sailing Club',
       title: 'Head Sailing Instructor',
-      logo: logoFacebook,
+      logo: logoComox,
       start: '2018',
       end: '2019',
     },
@@ -316,10 +317,28 @@ export default async function Home() {
       <Photos />
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
+          <div className="flex flex-col gap-8">
+            <p>
+              My name is Jonathan Kelly, and I would like to thank you for
+              taking the time to read over my portfolio.fwef 
+            </p>
+            <p>
+              I am a 2021 graduate form the University of Victoria with a
+              bachelor’s in computer science. During my schooling I also started
+              my olympic sailing career. After graduation, I continued with
+              sailing and from 2021 to 2023 I was pursuing my dream of competing
+              in the 2024 Olympics. While I was sailing I also worked on a few
+              projects, including a property inspection system for a local
+              company and a python application for Vancouver Island University.
+              I am now back in Nanaimo and am looking for a full time position
+              as a Frontend developer.
+            </p>
+            <p>
+              You can see my projects in greater detail in the projects section.
+              Also more information about my work experience can be found in the
+              About section. If you would like to get in touch with me, please
+              feel free to reach out to me on LinkedIn or by email.
+            </p>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             {/* <Newsletter /> */}
