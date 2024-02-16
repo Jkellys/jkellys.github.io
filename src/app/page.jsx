@@ -302,7 +302,7 @@ export default async function Home() {
           <div className="flex flex-col gap-8">
             <p>
               My name is Jonathan Kelly, and I would like to thank you for
-              taking the time to read over my portfolio.fwef
+              taking the time to read over my portfolio.
             </p>
             <p>
               I am a 2021 graduate form the University of Victoria with a
