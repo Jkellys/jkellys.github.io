@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  output: 'export',
+  outDir: 'export', // Corrected property name
 }
 
 const withMDX = nextMDX({
