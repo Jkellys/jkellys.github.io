@@ -5,6 +5,8 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  // Use 'public' as the output directory
+  distDir: 'public',
   target: 'experimental-serverless-trace',
 }
 
