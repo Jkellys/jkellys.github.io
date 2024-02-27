@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  output: 'export',
+  target: 'experimental-serverless-trace',
 }
 
 const withMDX = nextMDX({
@@ -16,5 +16,4 @@ const withMDX = nextMDX({
   },
 })
 
-
-export default withMDX(nextConfig)
+module.exports = withMDX(nextConfig)
