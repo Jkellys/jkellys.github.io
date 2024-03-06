@@ -2,11 +2,10 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoVIU from '@/images/logos/VIU-logo.svg'
+import logoMHC from '@/images/logos/MHC-logo.svg'
+import logoArdent from '@/images/logos/ardent-logo.svg'
+import logoTutela from '@/images/logos/tutela-logo.svg'
 
 const projects = [
   {
@@ -14,28 +13,28 @@ const projects = [
     description:
       'This is a self-assessment tool for keeping track of a person’s mental health. This project I built and designed the website using react.js. For the backend I used firebase with some google cloud functions.',
     link: { href: 'https://mhconnections.ca/', label: 'MHConnections.ca' },
-    logo: logoPlanetaria,
+    logo: logoMHC,
   },
   {
     name: '6PPDQ Autosampler',
     description:
       'This project took of information from a modified 3D printer attached to their mass spectrometer and outputted multiple graphs to make the information more readable. My contract was to help with the code for the 3D printer and translate the MATLAB code to Python and have it run on any computer at the lab with minimal commands.',
     link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    logo: logoVIU,
   },
   {
     name: 'Property Inspection App',
     description:
       'This project was aimed at eliminating the need for paper copies of property reports. The property inspectors can generate any form they need, take pictures, download the completed form, and access their information from any device. I built and designed this website with react.js and firebase as the backend.',
     link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    logo: logoArdent,
   },
   {
     name: 'Tutela Health Care',
     description:
       'My contact was to produce a website based on the clients designed. The site was made with HTML and CSS.',
     link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    logo: logoTutela,
   },
 ]
 
