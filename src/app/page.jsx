@@ -283,6 +283,13 @@ export default async function Home() {
             fast, accessible, and easy to use.
           </p>
           <div className="mt-6 flex gap-6">
+                        <SocialLink
+              href="mailto:jonathankelly@hotmail.ca"
+              icon={MailIcon}
+              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+            >
+              jonathankelly@hotmail.ca
+            </SocialLink>
             <SocialLink
               href="https://github.com/Jkellys"
               aria-label="Follow on GitHub"
@@ -305,15 +312,15 @@ export default async function Home() {
               taking the time to read over my portfolio.
             </p>
             <p>
-              I am a 2021 graduate form the University of Victoria with a
+             I am a 2021 graduate form the University of Victoria with a
               bachelor’s in computer science. During my schooling I also started
-              my olympic sailing career. After graduation, I continued with
-              sailing and from 2021 to 2023 I was pursuing my dream of competing
-              in the 2024 Olympics. While I was sailing I also worked on a few
-              projects, including a property inspection system for a local
-              company and a python application for Vancouver Island University.
-              I am now back in Nanaimo and am looking for a full time position
-              as a Frontend developer.
+              my olympic sailing career. After graduation, I continued my
+              sailing career and from 2021 to 2023 I was pursuing my dream of
+              competing in the 2024 Olympics. During this time I also worked on
+              a few projects, including a property inspection application for a
+              local company and a water sampler for Vancouver Island University.
+              In 2023 I decided to take a break from sailing and I am pursuing a
+              career in software development.
             </p>
             <p>
               You can see my projects in greater detail in the projects section.
