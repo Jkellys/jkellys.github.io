@@ -283,11 +283,7 @@ export default async function Home() {
             fast, accessible, and easy to use.
           </p>
           <div className="mt-6 flex gap-6">
-                        <SocialLink
-              href="mailto:jonathankelly@hotmail.ca"
-              icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-            >
+            <SocialLink href="mailto:jonathankelly@hotmail.ca" icon={MailIcon}>
               jonathankelly@hotmail.ca
             </SocialLink>
             <SocialLink
@@ -312,7 +308,7 @@ export default async function Home() {
               taking the time to read over my portfolio.
             </p>
             <p>
-             I am a 2021 graduate form the University of Victoria with a
+              I am a 2021 graduate form the University of Victoria with a
               bachelor’s in computer science. During my schooling I also started
               my olympic sailing career. After graduation, I continued my
               sailing career and from 2021 to 2023 I was pursuing my dream of
