@@ -230,7 +230,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="Jonathan Kelly resume.pdf"
+        href="https://drive.google.com/file/d/14DjATSQnmhnmRH6S5mka8MAYrhIZfPuX/view?usp=sharing"
         download="cv"
         variant="secondary"
         className="group mt-6 w-full"
@@ -278,9 +278,12 @@ export default async function Home() {
             Software developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Jonathan, a software developer based in Nanaimo on Vancouver
-            Island. I specialize in building websites and applications that are
-            fast, accessible, and easy to use.
+            I’m Jonathan, a software developer based in Nanaimo BC on Vancouver
+            Island. I specialize in building custom websites and applications
+            that are fast, accessible, and easy to use. I invite you to explore
+            my portfolio and discover how I can help bring your digital vision
+            to life. Let's collaborate and create something truly remarkable
+            together!
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="mailto:jonathankelly@hotmail.ca" icon={MailIcon}>
@@ -308,21 +311,26 @@ export default async function Home() {
               taking the time to read over my portfolio.
             </p>
             <p>
-              I am a 2021 graduate form the University of Victoria with a
-              bachelor’s in computer science. During my schooling I also started
+              I earned my bachelor's degree in computer science from the
+              University of Victoria in 2021. During my schooling I also started
               my olympic sailing career. After graduation, I continued my
-              sailing career and from 2021 to 2023 I was pursuing my dream of
-              competing in the 2024 Olympics. During this time I also worked on
-              a few projects, including a property inspection application for a
-              local company and a water sampler for Vancouver Island University.
-              In 2023 I decided to take a break from sailing and I am pursuing a
-              career in software development.
+              sailing career until 2023. While I was competing I worked on a
+              software projects, collaborating with companies and academic
+              institutions.
+            </p>
+            <p>
+              Notably, I contributed to the development of a property inspection
+              application and collaborated with a graduate student to create an
+              automated water sampler for Vancouver Island University. These
+              experiences honed my skills in real-world problem-solving and
+              project management.
             </p>
             <p>
               You can see my projects in greater detail in the projects section.
-              Also more information about my work experience can be found in the
-              About section. If you would like to get in touch with me, please
-              feel free to reach out to me on LinkedIn or by email.
+              If you're interested in learning more about my professional
+              journey, you'll find detailed information in the About section. If
+              you would like to get in touch with me, please feel free to reach
+              out to me on LinkedIn or via email.
             </p>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
